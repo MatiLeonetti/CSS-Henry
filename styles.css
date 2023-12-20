@@ -1,0 +1,68 @@
+h1 {
+    background-color: rgb(175, 87, 87);
+}
+
+.titulo {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 2em;
+}
+
+#titulo-1 {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    margin: 3em;
+}
+
+#cuerpo {
+    transition: 2s;
+    background-color: cyan; 
+    font-style: italic;
+    border: 0.5em solid green;
+    width: 50vw;
+    margin: auto;
+    font-stretch: expanded;
+}
+
+#cuerpo:hover {
+    background-color: brown;
+}
+
+#imagenes {
+    border: 1em solid grey;
+    border-radius: 20%;
+    background-color: rgb(173, 142, 142);
+    border-bottom: 2em;
+    width: 65vw;
+    margin: auto;
+    margin-top: 1em; margin-bottom: 2em;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+
+body {
+    background-color: darkgrey;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#links {
+    font-size: 1.5em;
+    text-shadow: 2px 3px 4px  darkblue;
+}
+
+#subtitulo {
+    font-style: oblique;
+    margin: 1em;
+}
+
+.fondo {
+    font-style: italic;
+    color: chartreuse;
+    background-color: darkred;
+    display: flex;
+    justify-content: flex-end;
+}
